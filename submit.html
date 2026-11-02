@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Macomb Photo Club - Submit Your Photo</title>
+  <meta name="description" content="Submit your photography entry to the Macomb Photo Club monthly contest using our easy online submission form.">
+  <meta name="keywords" content="submit photo, photo contest entry, photography submission">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" type="text/css" href="picstyle.css" title="style">
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <h1><a href="index.html">Macomb <span class="logo_colour">Photo Club</span></a></h1>
+          <h2>Capturing the world, one frame at a time.</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="rules.html">Rules</a></li>
+          <li><a href="categories.html">Categories</a></li>
+          <li class="selected"><a href="submit.html">Submit Photo</a></li>
+          <li><a href="vote.html">Vote</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="chat.html">Live Chat</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="site_content">
+      <div class="sidebar">
+        <script src="js/sidebar.js"></script>
+      </div>
+      <div id="content">
+        <h1>Submit Your Photo</h1>
+        <p>Ready to share your work with the Macomb Photo Club community? We are excited to see what you have been shooting! Submitting your photo is easy — simply fill out the form below with your name, the category you are entering, a brief title and description for your photograph, and attach the image file. Before submitting, please make sure your image meets all the technical requirements listed on our <a href="rules.html">Rules page</a>. Accepted formats are JPG, GIF, and PNG, with a maximum file size of 1 MB. Each member may submit one photo per contest period. Submissions that do not comply with the rules will be disqualified without notice, so please review the guidelines carefully before sending your entry.</p>
+
+        <p>Once you submit your photo, our team will review it within two to three business days to confirm that it meets all eligibility requirements. If your photo is approved, it will be added to the active voting page before the voting period opens at the end of the month. You will receive a confirmation email when your photo has been accepted. If there is a problem with your submission — for example, if the file is too large or the format is incorrect — we will contact you and give you one opportunity to resubmit. Please do not submit duplicate entries, as this may result in all of your entries being disqualified for the current contest period.</p>
+
+        <h2>Submission Form</h2>
+        <form action="mailto:photoclub@example.com" method="post" enctype="multipart/form-data" class="form_settings">
+          <p><span>Your Name:</span><input type="text" name="name" placeholder="Full Name"></p>
+          <p><span>Your Email:</span><input type="email" name="email" placeholder="your@email.com"></p>
+          <p><span>Photo Title:</span><input type="text" name="title" placeholder="Title of your photograph"></p>
+          <p><span>Category:</span>
+            <select name="category">
+              <option value="nature">Nature &amp; Landscape</option>
+              <option value="urban">Urban &amp; Street</option>
+              <option value="portrait">Portrait &amp; People</option>
+            </select>
+          </p>
+          <p><span>Description:</span><textarea name="description" rows="4" placeholder="Briefly describe your photo (location, story, camera settings, etc.)"></textarea></p>
+          <p><span>Attach Photo:</span><input type="file" name="photo" accept=".jpg,.jpeg,.gif,.png" style="width:auto;border:0;background:none;padding:0;"></p>
+          <p><input type="submit" value="Submit" class="submit"></p>
+        </form>
+      </div>
+    </div>
+
+    <div id="content_footer"></div>
+    <div id="footer">
+      <script src="js/footer_nav.js"></script>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Macomb Photo Club - Vote for Your Favorite</title>
+  <meta name="description" content="Cast your vote for your favorite photo in this month's Macomb Photo Club contest. View the entries and vote now.">
+  <meta name="keywords" content="photo vote, photography contest voting, vote for best photo">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" type="text/css" href="picstyle.css" title="style">
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <h1><a href="index.html">Macomb <span class="logo_colour">Photo Club</span></a></h1>
+          <h2>Capturing the world, one frame at a time.</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="rules.html">Rules</a></li>
+          <li><a href="categories.html">Categories</a></li>
+          <li><a href="submit.html">Submit Photo</a></li>
+          <li class="selected"><a href="vote.html">Vote</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="chat.html">Live Chat</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="site_content">
+      <div class="sidebar">
+        <script src="js/sidebar.js"></script>
+      </div>
+      <div id="content">
+        <h1>Monthly Photo Contest Vote</h1>
+        <p>Welcome to the voting page for this month's Macomb Photo Club contest. This month's theme is <strong>Nature &amp; Landscape</strong>. Below you will find the three finalists selected by our review committee from all eligible submissions. Take your time to look carefully at each photograph before casting your vote. Consider the composition, lighting, technical quality, and the overall emotional impact of each image as you make your decision. Each member may vote only once per contest period, so choose wisely!</p>
+
+        <p>Voting is open from the 25th through the last day of each month. Winners are announced on the first of the following month and will be added to our permanent <a href="gallery.html">Gallery of Past Winners</a>. If you have not yet submitted your own photo for this contest, there is still time — head over to the <a href="submit.html">Submit Photo</a> page before the submission deadline on the 20th. Thank you for participating and for supporting your fellow photographers in our community. Every vote counts, and every vote helps a photographer know that their work is appreciated.</p>
+
+        <h2>This Month's Finalists — Nature &amp; Landscape</h2>
+
+        <div class="vote-section">
+          <h4>Entry #1 — "Morning Mist on the River" by Jane D.</h4>
+          <img src="images/vote1.jpg" alt="A misty river at dawn with soft golden light filtering through the trees" title="Morning Mist on the River by Jane D.">
+          <p>A stunning early-morning capture of the Kishwaukee River blanketed in fog, with warm golden light just beginning to break through the tree line on the far bank.</p>
+        </div>
+
+        <div class="vote-section">
+          <h4>Entry #2 — "Storm Over the Prairie" by Marcus T.</h4>
+          <img src="images/vote2.jpg" alt="A dramatic storm cloud rolling over a flat midwestern prairie at sunset" title="Storm Over the Prairie by Marcus T.">
+          <p>A dramatic wide-angle shot of a supercell thunderstorm developing over an open Illinois prairie, with vivid purples and oranges in the sky contrasting against the flat green landscape below.</p>
+        </div>
+
+        <div class="vote-section">
+          <h4>Entry #3 — "Autumn Reflection" by Priya S.</h4>
+          <img src="images/vote3.jpg" alt="A still forest pond reflecting brilliant red and orange autumn foliage" title="Autumn Reflection by Priya S.">
+          <p>A perfectly still woodland pond in peak fall color, with vivid reds, oranges, and yellows reflected so clearly in the water that the image appears nearly symmetrical.</p>
+        </div>
+
+        <h2>Cast Your Vote</h2>
+        <form action="mailto:photoclub@example.com" method="post" enctype="text/plain" class="form_settings">
+          <p><span>Your Name:</span><input type="text" name="voter_name" placeholder="Full Name"></p>
+          <p><span>Your Email:</span><input type="email" name="voter_email" placeholder="your@email.com"></p>
+          <p><span>Your Vote:</span>
+            <select name="vote">
+              <option value="entry1">Entry #1 — Morning Mist on the River</option>
+              <option value="entry2">Entry #2 — Storm Over the Prairie</option>
+              <option value="entry3">Entry #3 — Autumn Reflection</option>
+            </select>
+          </p>
+          <p><span>Comments (optional):</span><textarea name="comments" rows="3" placeholder="Why did you choose this photo?"></textarea></p>
+          <p><input type="submit" value="Vote" class="submit"></p>
+        </form>
+      </div>
+    </div>
+
+    <div id="content_footer"></div>
+    <div id="footer">
+      <script src="js/footer_nav.js"></script>
+    </div>
+  </div>
+</body>
+</html>

@@ -27,7 +27,7 @@ A multi-page website for a fictional online photography club, hand-coded in HTML
 
 ## Notes
 
-The club, members, and contest entries are fictional. Images in `images/` are placeholders.
+The club, members, and contest entries are fictional. Some images in `images/` are placeholders.
 
 ## Running it
 

@@ -32,3 +32,7 @@ The club, members, and contest entries are fictional.
 ## Running it
 
 No build step. Open `index.html` in a browser, or view the live site above.
+
+## Photo credits
+
+- Fruit market (`gallery_urban2.jpg`): "La Boqueria" by Dungodung, Wikimedia Commons, public domain.
